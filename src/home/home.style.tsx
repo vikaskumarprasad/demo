@@ -1,3 +1,6 @@
+/* eslint-disable prettier/prettier */
+/* eslint-disable quotes */
+/* eslint-disable prettier/prettier */
 import { StyleSheet } from "react-native";
 
 export const homeStyle = StyleSheet.create({
@@ -10,6 +13,6 @@ export const homeStyle = StyleSheet.create({
         backgroundColor : 'white',
         alignContent : "center",
         alignItems : 'center',
-        justifyContent : 'center'
-    }
-})
+        justifyContent : 'center',
+    },
+});
