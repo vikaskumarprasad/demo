@@ -15,7 +15,6 @@ const HomeView = () => {
           style={{
             backgroundColor: 'red',
             height: 50,
-            // alignSelf : 'center'
             justifyContent: 'center',
             alignItems: 'center',
             margin: 16,

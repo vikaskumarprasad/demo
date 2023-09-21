@@ -1,44 +1,46 @@
-import { View, Text, SafeAreaView, StyleSheet, StatusBar } from "react-native"
-import { appStyle } from "./src/style";
+/* eslint-disable react/react-in-jsx-scope */
+/* eslint-disable prettier/prettier */
+import { View, Text, SafeAreaView, StyleSheet, StatusBar } from 'react-native';
+import { appStyle } from './src/style';
 
 const App = () => {
   const DATA = [
     {
       id: 1,
-      name: "vikas",
+      name: 'vikas',
       price: 4564,
-      color: "blue",
+      color: 'blue',
     },
     {
       id: 2,
-      name: "vikas",
+      name: 'vikas',
       price: 4564,
-      color: "blue",
+      color: 'blue',
     },
     {
       id: 3,
-      name: "vikas",
+      name: 'vikas',
       price: 4564,
-      color: "blue",
+      color: 'blue',
     },
     {
       id: 4,
-      name: "vikas",
+      name: 'vikas',
       price: 4564,
-      color: "blue",
+      color: 'blue',
     },
     {
       id: 5,
-      name: "vikas",
+      name: 'vikas',
       price: 4564,
-      color: "blue",
-    }
-  ]
+      color: 'blue',
+    },
+  ];
   return (
 
     <SafeAreaView >
-      <StatusBar backgroundColor= 'black' barStyle={"light-content"}/>
-      
+      <StatusBar backgroundColor= "black" barStyle={'light-content'}/>
+
         <View style={styles.mainContainer}>
           {DATA.map((item) =>
             <View style={appStyle.container}>
@@ -52,8 +54,8 @@ const App = () => {
         </View>
       </SafeAreaView>
 
-  )
-}
+  );
+};
 
 export default App;
 
@@ -62,5 +64,5 @@ const styles = StyleSheet.create({
     // backgroundColor : 'lightblue',
     // height : '25%',
     // width : '100%',
-  }
-})
+  },
+});
